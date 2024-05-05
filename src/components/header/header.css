@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navbar__logo ul {
+    gap: 10px;
+    color: gray;
+
+}
+
+.navbar__btn {
+    padding: 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgb(220, 120, 11);
+}
+

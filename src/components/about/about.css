@@ -1,0 +1,41 @@
+.about {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+.about__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about__right h1 {
+    font-size: 31.25px;
+}
+
+.about__right p {
+    color: gray;
+}
+
+.about__right h4 {
+    color: rgb(220, 120, 11);
+}
+
+.about__right__btn {
+    width: 142px;
+    height: 42px;
+    border: 1px solid rgb(220, 120, 11);
+    border-radius: 5px;
+    background: white;
+    color: rgb(220, 120, 11);
+    transition: .3s;
+}
+
+.about__right__btn:hover {
+    border: 1px solid transparent;
+    background: rgb(220, 120, 11);
+    color: white;
+    transition: .3s;
+}
